@@ -1,0 +1,307 @@
+body {
+    color: #000;
+}
+a {
+    transition: all .3s;
+    text-decoration: none;
+    color: #000;
+}
+.fw-500 {
+    font-weight: 500;
+}
+.text-grey {
+    color: #666;
+}
+.brownhov:hover {
+    color: #a68242;
+}
+.bg-black {
+    background: #000;
+}
+.readmore:hover {
+    background: #a68242;
+}
+.text-black:hover {
+    color: #000;
+}
+/* -------------------------Header------------------------- */
+header .fa-bars {
+    font-size: 22px;
+}
+header .form-control.search {
+    border-radius: 0;
+    border: transparent;
+    border-bottom: 1px solid;
+    width: 170px;
+    margin-bottom: 12px;
+}
+header .zero::after {
+    position: absolute;
+    content: "0";
+    font-size: 14px;
+    top: -8px;
+    right: -3px;
+}
+header .zero.heart::after {
+    right: -6px;
+    top: -4px;
+}
+header .rightbar li:not(:last-child) {
+    margin-right: 35px;
+}
+header h5 {
+    margin-bottom: -4px;
+}
+header .form-control {
+    padding: 5px 0;
+}
+header .form-control:focus, header .btn:focus {
+    box-shadow: 0 0 0 0.25rem rgb(255 255 255 / 25%);
+}
+header .heartColor {
+    background: url("../img/heart.png");
+    width: 22px;
+    height: 22px;
+    margin-top: 7px;
+}
+header .heartColor:hover {
+    background: url("../img/heartColor.png");
+}
+header .dropdown-item {
+    padding: 0 0 11px;
+}
+header .dropdown-item:focus, .dropdown-item:hover {
+    background-color: transparent;
+    color: #a68242;
+}
+header #navbar {
+    overflow: hidden;
+    background-color: #fff;
+    padding: 45px 42px;
+    transition: 0.4s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+  }
+header #navbar #logo {
+    font-size: 35px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+header #navbar a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+header .accordion-button:not(.collapsed) {
+    background-color: transparent;
+    color: #a68242;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 0%);
+}
+header .accordion-button:focus {
+    box-shadow: 0 0 0 0.25rem rgb(255 255 255 / 25%);
+}
+header .accordion-button::after {
+    background: no-repeat;
+    border: solid black;
+    border-width: 0px 3px 3px 0;
+    display: inline-block;
+    transform: rotate(-45deg);
+    width: 9px;
+    height: 9px;
+}
+header .accordion-button:hover::after {
+    border: solid #a68242;
+    border-width: 0px 3px 3px 0;
+}
+header .accordion-button:not(.collapsed)::after {
+    background-image: none;
+    transform: rotate(45deg);
+    border: solid #a68242;
+    border-width: 0px 3px 3px 0;
+}
+header .accordion-button {
+    padding: 1rem 0;
+}
+header .offcanvas-header {
+    padding: 30px;
+}
+header .offcanvas-body {
+    padding: 0 30px 0;
+}
+header .info.accordion-button:not(.collapsed) {
+    color: #000;
+}
+header .info.accordion-button::after {
+    border: solid white;
+}
+header #collapseFour a {
+    font-size: 14px;
+}
+/* -------------------------Footer------------------------- */
+footer section:first-child {
+    padding: 100px 0;
+    background: #faf9f8;
+}
+footer section+section {
+    padding: 60px 0;
+}
+footer a:hover {
+    color: #a68242
+}
+footer a .zalo {
+    background: url("../img/zalo.png");
+    width: 14px;
+    height: 16px;
+}
+footer a:hover .zalo {
+    background: url("../img/zaloHover.png");
+    transition: all .3s;
+}
+/* -------------------------Banner------------------------- */
+#banner .carousel {
+    margin-top: 139px;
+}
+#banner .carousel-indicators [data-bs-target] {
+    background-color: #000;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 6px;
+    margin-left: 6px;
+}
+/* -------------------------Arrival------------------------- */
+
+#arrival .container-fluid:first-child {
+    padding: 0 45px;
+}
+#arrival .container-fluid+.container-fluid .bg-black{
+    border-right: 1px solid #fff;
+}
+#arrival .item {
+    width: 411px;
+    height: 617px;
+    transition: all .35s ease-in;
+}
+#arrival h6 {
+    font-size: 17px;
+}
+#arrival .item.item-1 {
+    background: url(../img/quan-suong-lua-den-hoa-tiet.png) center center;
+}
+#arrival .item.item-1:hover {
+    background: url(../img/quan-suong-lua-den-hoa-tiet-2.jpg.png) center center;
+}
+#arrival .item.item-2 {
+    background: url(../img/quan-trang-dai-cap.png) center center;
+}
+#arrival .item.item-2:hover {
+    background: url(../img/quan-trang-dai-cap-2.png) center center;
+}
+#arrival .item.item-3 {
+    background: url(../img/jupe-den-hoa-tiet-elise-dap-ly.jpg) center center;
+}
+#arrival .item.item-3:hover {
+    background: url(../img/jupe-den-hoa-tiet-elise-dap-ly-2.jpg) center center;
+}
+#arrival .item.item-4 {
+    background: url(../img/sm-to-hong-kt-xep-ly-cheo.jpg) center center;
+}
+#arrival .item.item-4:hover {
+    background: url(../img/sm-to-hong-kt-xep-ly-cheo-2.jpg) center center;
+}
+#arrival .item.item-5 {
+    background: url(../img/jupe-lua-hong-ht-dap-ly.jpg) center center;
+}
+#arrival .item.item-5:hover {
+    background: url(../img/jupe-lua-hong-ht-dap-ly-2.jpg) center center;
+}
+#arrival .item.item-6 {
+    background: url(../img/quan-tafta-den-suong.jpg) center center;
+}
+#arrival .item.item-6:hover {
+    background: url(../img/quan-tafta-den-suong-2.jpg) center center;
+}
+#arrival .item.item-7 {
+    background: url(../img/jupe-tafta-den-xep-ly.jpg) center center;
+}
+#arrival .item.item-7:hover {
+    background: url(../img/jupe-tafta-den-xep-ly-2.jpg) center center;
+}
+#arrival .item.item-8 {
+    background: url(../img/sm-lua-den-ht-no-co.jpg) center center;
+}
+#arrival .item.item-8:hover {
+    background: url(../img/sm-lua-den-ht-no-co-2.jpg) center center;
+}
+#arrival .item.item-9 {
+    background: url(../img/sm-to-tim-no-nguc.jpg) center center;
+}
+#arrival .item.item-9:hover {
+    background: url(../img/sm-to-tim-no-nguc-2.jpg) center center;
+}
+#arrival .item.item-10 {
+    background: url(../img/dam-to-hong-kt-tre-vai.jpg) center center;
+}
+#arrival .item.item-10:hover {
+    background: url(../img/dam-to-hong-kt-tre-vai-2.jpg) center center;
+}
+#arrival .item.item-11 {
+    background: url(../img/ao-thun-trang-in-hoa-tiet.jpg) center center;
+}
+#arrival .item.item-11:hover {
+    background: url(../img/jupe-den-hoa-tiet-elise-dap-ly-2.jpg) center center;
+}
+#arrival .item.item-12 {
+    background: url(../img/quan-sooc-tafta-hong-dinh-logo.jpg) center center;
+}
+#arrival .item.item-12:hover {
+    background: url(../img/sm-to-hong-kt-xep-ly-cheo-2.jpg) center center;
+}
+
+/* -------------------------Responsive------------------------- */
+@media (max-width:820px) {
+    .d-none-md {
+        display: none !important;
+    }
+    #arrival .container-fluid:first-child {
+        padding: 0 10px;
+    }
+    #arrival .item {
+        width: 396px;
+        height: 594px;
+    }
+}
+@media screen and (max-width: 580px) {
+    header #navbar {
+      padding: 20px 10px !important;
+    }
+    header #navbar a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+}
+@media (max-width:390px) {
+    .justify-content-center-xs {
+        justify-content: center;
+    }
+    #arrival .item {
+        width: 380px;
+    }
+    header .contact {
+        justify-content: center !important;
+        margin-top: 13px;
+    }
+    footer section:first-child {
+        padding: 30px 0;
+    }
+    #arrival .container-fluid+.container-fluid .bg-black {
+        border-right: none;
+        border-bottom: 1px solid #fff;
+    }
+    footer .support {
+        margin-top: 20px;
+    }
+}
